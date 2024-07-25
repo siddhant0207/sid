@@ -32,7 +32,6 @@ class QuizGame:
                 print("Invalid input. Please enter a number.\n")
         print(f"Quiz complete! Your score: {self.score}/{len(self.questions)}")
 
-# Create quiz questions
 questions = [
    
 Question("What does HTML stand for?", ["Hyper Text Markup Language", "Hyperlink and Text Markup Language", "Home Tool Markup Language", "Hyper Text Manipulation Language"], 1),
@@ -47,8 +46,7 @@ Question("What does HTML stand for?", ["Hyper Text Markup Language", "Hyperlink 
     Question("What is the result of 2 * 3?", ["5", "6", "7", "8"], 2)
 ]
 
-# Initialize the quiz game
+
 quiz = QuizGame(questions)
 
-# Start the quiz
 quiz.play()
